@@ -1,14 +1,16 @@
-.center {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+
+  a {
+    color: Pink;
+  }
+
+  span {
+    color: turquoise;
   }
 
   body, html {
     height: 100%;
   }
-  
+
   .bg {
     /* The image used */
     background-image: url("/Images/Pink-Clouds.jpg");
@@ -17,8 +19,38 @@
     height: 100%;
     width: 100%;
   
-    /* Center and scale the image nicely */
+    /* Center and scale the image */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .box1 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    margin: 20px;
+    box-sizing: border-box;
+  }
+  
+  .box2 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    margin: 20px;
+    box-sizing: border-box;
+  }
+
+  .center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+  }
+
+ .left{
+    float: left;
+    margin-left: auto;
+    margin-right: 100%;
+    width: 200px
   }
